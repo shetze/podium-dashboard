@@ -1,9 +1,8 @@
-# Mozaïk demo dashboards
+# Podium Collaboration Dashboards
 
-[![Travis CI][travis-image]][travis-url]
+The Podium Collaboration Dashboard provides a landing page for associated applications.
 
-This repository shows how to use Mozaïk with npm extensions, [installation instructions](http://mozaik.rocks/v1/use/).
 
-[travis-image]: https://img.shields.io/travis/plouc/mozaik-demo.svg?style=flat-square
-[travis-url]: https://travis-ci.org/plouc/mozaik-demo
+This repository makes use of Mozaïk with npm extensions, [installation instructions](http://mozaik.rocks/v1/use/).
+
 

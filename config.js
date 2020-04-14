@@ -5,7 +5,7 @@ var config = {
     env:  'prod',
 
     host: '0.0.0.0',
-    port: process.env.PORT || 5000,
+    port: process.env.PORT || 8080,
 
     // Available themes:
     // + bordeau
@@ -15,19 +15,13 @@ var config = {
     // + night-blue
     // + snow
     // + yellow
-    theme: 'night-blue',
+    theme: 'harlequin',
 
     // clients configs
     api: {
-        aws: {
-            region: 'eu-west-1'
-        },
-        jenkins: {
-            baseUrl: 'https://my-jenkins.com',
-            auth: {
-                user:     'me',
-                password: 'me'
-            }
+        github: {
+            baseUrl: 'https://api.github.com',
+            token: ''
         }
     },
 
@@ -47,27 +41,25 @@ var config = {
             widgets: [
                 {
                     type: 'github.user_badge',
-                    user: 'plouc',
+                    user: 'shetze',
                     columns: 1, rows: 1,
                     x: 0, y: 0
                 },
                 {
                     type: 'github.repository_contributors_stats',
-                    repository: 'plouc/mozaik',
+                    repository: 'shetze/podium-dashboard',
                     columns: 1, rows: 1,
                     x: 2, y: 0
                 },
                 {
-                    type: 'travis.repository',
-                    owner: 'plouc',
-                    repository: 'mozaik',
+                    type: 'mozaik.inspector',
                     columns: 1, rows: 1,
                     x: 1, y: 0
                 },
                 {
-                    type: 'travis.build_histogram',
-                    owner: 'plouc',
-                    repository: 'mozaik',
+                    type: 'embed.markup',
+                    title: 'Jitsi Conference Room',
+                    content: '<a href"https://meet-jitsi.apps.cloud.lunetix.org/">Podium Conference</a>',
                     columns: 2, rows: 1,
                     x: 1, y: 1
                 },
@@ -77,23 +69,19 @@ var config = {
                     x: 3, y: 0
                 },
                 {
-                    type: 'travis.repository',
-                    owner: 'plouc',
-                    repository: 'mozaik-demo',
+                    type: 'mozaik.inspector',
                     columns: 1, rows: 1,
                     x: 0, y: 1
                 },
                 {
-                    type: 'travis.build_history',
-                    owner: 'plouc',
-                    repository: 'mozaik',
+                    type: 'embed.markup',
+                    title: 'Etherpad',
+                    content: '<a href"https://etherpad-jitsi.apps.cloud.lunetix.org/">Podium Etherpad</a>',
                     columns: 1, rows: 2,
                     x: 3, y: 1
                 },
                 {
-                    type: 'travis.build_histogram',
-                    owner: 'plouc',
-                    repository: 'go-gitlab-client',
+                    type: 'mozaik.inspector',
                     columns: 2, rows: 1,
                     x: 1, y: 2
                 },
@@ -112,29 +100,23 @@ var config = {
             rows:    2,
             widgets: [
                 {
-                    type: 'travis.build_history',
-                    owner: 'plouc',
-                    repository: 'mozaik',
+                    type: 'mozaik.inspector',
                     columns: 1, rows: 2,
                     x: 0, y: 0
                 },
                 {
                     type: 'github.user_badge',
-                    user: 'plouc',
+                    user: 'shetze',
                     columns: 1, rows: 1,
                     x: 2, y: 0
                 },
                 {
-                    type: 'travis.repository',
-                    owner: 'plouc',
-                    repository: 'mozaik',
+                    type: 'mozaik.inspector',
                     columns: 1, rows: 1,
                     x: 1, y: 0
                 },
                 {
-                    type: 'travis.build_histogram',
-                    owner: 'plouc',
-                    repository: 'mozaik',
+                    type: 'mozaik.inspector',
                     columns: 2, rows: 1,
                     x: 1, y: 1
                 }

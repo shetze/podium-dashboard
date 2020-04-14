@@ -1,14 +1,14 @@
 {
-  "name": "mozaik-dashboard",
-  "description": "Mozaïk demo dashboard",
+  "name": "podium-dashboard",
+  "description": "Podium Collaboration Dashboard",
   "repository": {
     "type": "git",
-    "url": "git://github.com/plouc/mozaik-demo"
+    "url": "git://github.com/shetze/podium-dashboard"
   },
   "license": "MIT",
   "author": {
-    "name": "Raphaël Benitte",
-    "url": "https://github.com/plouc"
+    "name": "Sebastian Hetze",
+    "url": "https://github.com/shetze"
   },
   "engines": {
     "node": "0.12.x",
@@ -24,7 +24,8 @@
     "mozaik": "1.4.4",
     "mozaik-ext-github": "1.2.2",
     "mozaik-ext-time": "1.1.0",
-    "mozaik-ext-travis": "1.1.0",
+    "mozaik-ext-calendar": "0.3.1",
+    "mozaik-ext-embed": "0.2.1",
     "react": "^0.13.3"
   },
   "scripts": {
