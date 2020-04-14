@@ -56,7 +56,7 @@ var config = {
                 {
                     type: 'embed.markup',
                     title: 'Jitsi Conference Room',
-                    content: '<a href="https://meet-jitsi.apps.cloud.lunetix.org/" target="_blank">New Podium Conference Window</a>',
+                    content: '<a href="https://meet-jitsi.apps.cloud.lunetix.org/" target="_blank" rel="noreferrer noopener">Blank Podium Conference Window</a>',
                     columns: 2, rows: 1,
                     x: 1, y: 1
                 },
@@ -73,7 +73,7 @@ var config = {
                 {
                     type: 'embed.markup',
                     title: 'Etherpad',
-                    content: '<a href="https://etherpad-jitsi.apps.cloud.lunetix.org/" target="_tab">Podium Etherpad Tab</a>',
+                    content: '<a href="https://etherpad-jitsi.apps.cloud.lunetix.org/" target="_tab" rel="noreferrer noopener">Podium Etherpad Tab</a>',
                     columns: 1, rows: 2,
                     x: 3, y: 1
                 },
