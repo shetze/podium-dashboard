@@ -25,9 +25,6 @@ var config = {
         }
     },
 
-    // define duration between each dashboard rotation (ms)
-    rotationDuration: 8000,
-
     // define the interval used by Mozaïk Bus to call registered APIs
     apisPollInterval: 15000,
 
@@ -81,7 +78,8 @@ var config = {
                     x: 3, y: 1
                 },
                 {
-                    type: 'mozaik.inspector',
+                    type: 'github.user_badge',
+                    user: 'shetze',
                     columns: 2, rows: 1,
                     x: 1, y: 2
                 },
@@ -93,35 +91,6 @@ var config = {
             ]
         },
 
-        // second dashboard
-        {
-            // 3 x 2 dashboard
-            columns: 3,
-            rows:    2,
-            widgets: [
-                {
-                    type: 'mozaik.inspector',
-                    columns: 1, rows: 2,
-                    x: 0, y: 0
-                },
-                {
-                    type: 'github.user_badge',
-                    user: 'shetze',
-                    columns: 1, rows: 1,
-                    x: 2, y: 0
-                },
-                {
-                    type: 'mozaik.inspector',
-                    columns: 1, rows: 1,
-                    x: 1, y: 0
-                },
-                {
-                    type: 'mozaik.inspector',
-                    columns: 2, rows: 1,
-                    x: 1, y: 1
-                }
-            ]
-        }
     ]
 };
 
