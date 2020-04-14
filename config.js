@@ -59,7 +59,7 @@ var config = {
                 {
                     type: 'embed.markup',
                     title: 'Jitsi Conference Room',
-                    content: '<a href="https://meet-jitsi.apps.cloud.lunetix.org/">Podium Conference</a>',
+                    content: '<a href="https://meet-jitsi.apps.cloud.lunetix.org/">Podium Conference Link</a>',
                     columns: 2, rows: 1,
                     x: 1, y: 1
                 },
