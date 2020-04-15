@@ -56,9 +56,7 @@ var config = {
                 {
                     type: 'embed.markup',
                     title: 'Jitsi Conference Center',
-                    content: '<a href="https://meet-jitsi.apps.cloud.lunetix.org/Plenum" target="_blank" rel="noreferrer noopener"><img src="https://cdn.pixabay.com/photo/2013/02/20/01/04/meeting-83519__340.jpg" alt="Main Podium" width="200" height="100"></a>  
-                <a href="https://meet-jitsi.apps.cloud.lunetix.org/RoomA" target="_blank" rel="noreferrer noopener"><img src="https://cdn.pixabay.com/photo/2015/07/02/09/52/interior-design-828545__340.jpg" alt="Meeting Room" width="200" height="100"></a>  
-                <a href="https://meet-jitsi.apps.cloud.lunetix.org/Lobby" target="_blank" rel="noreferrer noopener"><img src="https://cdn.pixabay.com/photo/2019/11/29/08/34/space-4660847__340.jpg" alt="Lobby" width="200" height="100"></a>',
+                    content: '<a href="https://meet-jitsi.apps.cloud.lunetix.org/Plenum" target="_blank" rel="noreferrer noopener"><img src="https://cdn.pixabay.com/photo/2013/02/20/01/04/meeting-83519__340.jpg" alt="Main Podium" width="200" height="100"></a>  <a href="https://meet-jitsi.apps.cloud.lunetix.org/RoomA" target="_blank" rel="noreferrer noopener"><img src="https://cdn.pixabay.com/photo/2015/07/02/09/52/interior-design-828545__340.jpg" alt="Meeting Room" width="200" height="100"></a>  <a href="https://meet-jitsi.apps.cloud.lunetix.org/Lobby" target="_blank" rel="noreferrer noopener"><img src="https://cdn.pixabay.com/photo/2019/11/29/08/34/space-4660847__340.jpg" alt="Lobby" width="200" height="100"></a>',
                     columns: 2, rows: 1,
                     x: 1, y: 1
                 },
