@@ -55,8 +55,10 @@ var config = {
                 },
                 {
                     type: 'embed.markup',
-                    title: 'Jitsi Conference Room',
-                    content: '<a href="https://meet-jitsi.apps.cloud.lunetix.org/" target="_blank" rel="noreferrer noopener">Blank Podium Conference Window</a>',
+                    title: 'Jitsi Conference Center',
+                    content: '<a href="https://meet-jitsi.apps.cloud.lunetix.org/Plenum" target="_blank" rel="noreferrer noopener"><img src="Podium.jpg" alt="Main Podium" width="200" height="100"></a>',
+                    content: '<a href="https://meet-jitsi.apps.cloud.lunetix.org/RoomA" target="_blank" rel="noreferrer noopener"><img src="RoomA.jpg" alt="Meeting Room" width="200" height="100"></a>',
+                    content: '<a href="https://meet-jitsi.apps.cloud.lunetix.org/Lobby" target="_blank" rel="noreferrer noopener"><img src="Lobby.jpg" alt="Lobby" width="200" height="100"></a>',
                     columns: 2, rows: 1,
                     x: 1, y: 1
                 },
@@ -78,8 +80,9 @@ var config = {
                     x: 3, y: 1
                 },
                 {
-                    type: 'github.user_badge',
-                    user: 'shetze',
+                    type: 'embed.markup',
+                    title: 'DokuWiki',
+                    content: '<a href="https://dokuwiki-jitsi.apps.cloud.lunetix.org/" target="_tab" rel="noreferrer noopener">Knowledge Base</a>',
                     columns: 2, rows: 1,
                     x: 1, y: 2
                 },
