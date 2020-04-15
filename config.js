@@ -55,7 +55,7 @@ var config = {
                 },
                 {
                     type: 'embed.markup',
-                    title: 'Jitsi Conference Center',
+                    title: 'Conference Center',
                     content: '<a href="https://meet-jitsi.apps.cloud.lunetix.org/Plenum" target="_blank" rel="noreferrer noopener"><img src="https://cdn.pixabay.com/photo/2013/02/20/01/04/meeting-83519__340.jpg" alt="Main Podium" width="300" height="150"></a>  <a href="https://meet-jitsi.apps.cloud.lunetix.org/RoomA" target="_blank" rel="noreferrer noopener"><img src="https://cdn.pixabay.com/photo/2015/07/02/09/52/interior-design-828545__340.jpg" alt="Meeting Room" width="300" height="150"></a>  <a href="https://meet-jitsi.apps.cloud.lunetix.org/Lobby" target="_blank" rel="noreferrer noopener"><img src="https://cdn.pixabay.com/photo/2019/11/29/08/34/space-4660847__340.jpg" alt="Lobby" width="300" height="150"></a>',
                     columns: 2, rows: 1,
                     x: 1, y: 1
@@ -72,15 +72,15 @@ var config = {
                 },
                 {
                     type: 'embed.markup',
-                    title: 'Etherpads',
-                    content: '<ul><li><a href="https://etherpad-jitsi.apps.cloud.lunetix.org/" target="_tab" rel="noreferrer noopener">New Pad</a></li> <li><a href="https://etherpad-jitsi.apps.cloud.lunetix.org/p/Podium" target="_tab" rel="noreferrer noopener">General Podium Pad</a></li> <li><a href="https://etherpad-jitsi.apps.cloud.lunetix.org/d/Discussion" target="_tab" rel="noreferrer noopener">My Discussion Pad</a></li> <li><a href="https://etherpad-jitsi.apps.cloud.lunetix.org/t/ToDo" target="_tab" rel="noreferrer noopener">ToDo Pad</a></li></ul>',
+                    title: 'Sketch Boards',
+                    content: '<ul><li><a href="https://etherpad-jitsi.apps.cloud.lunetix.org/" target="_tab" rel="noreferrer noopener">New Pad</a></li> <li><a href="https://etherpad-jitsi.apps.cloud.lunetix.org/p/Podium" target="_tab" rel="noreferrer noopener">General Podium Pad</a></li> <li><a href="https://etherpad-jitsi.apps.cloud.lunetix.org/p/Draft" target="_tab" rel="noreferrer noopener">Draft Pad</a></li> <li><a href="https://etherpad-jitsi.apps.cloud.lunetix.org/p/ToDo" target="_tab" rel="noreferrer noopener">ToDo Pad</a></li></ul>',
                     columns: 1, rows: 2,
                     x: 3, y: 1
                 },
                 {
                     type: 'embed.markup',
-                    title: 'DokuWiki',
-                    content: '<a href="http://dokuwiki-jitsi.apps.cloud.lunetix.org/" target="_tab" rel="noreferrer noopener">Knowledge Base</a>',
+                    title: 'Knowledge Base',
+                    content: '<p align="center"><a href="http://dokuwiki-jitsi.apps.cloud.lunetix.org/" target="_tab" rel="noreferrer noopener"><img src="https://cdn.pixabay.com/photo/2017/06/30/09/04/system-2457648__340.jpg" alt="Podium Wiki" width="300" height="150"></a></p>',
                     columns: 2, rows: 1,
                     x: 1, y: 2
                 },
