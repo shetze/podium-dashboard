@@ -26,6 +26,7 @@
     "mozaik-ext-time": "1.1.0",
     "mozaik-ext-calendar": "0.3.1",
     "mozaik-ext-embed": "0.2.1",
+    "mozaik-ext-iframe": "1.0.5",
     "react": "^0.13.3"
   },
   "scripts": {
